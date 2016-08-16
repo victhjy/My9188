@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4657C3621D62D72A00F5978D /* DiscoverCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4657C3611D62D72A00F5978D /* DiscoverCell.m */; };
+		4657C3671D62D75E00F5978D /* DiscoverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4657C3661D62D75E00F5978D /* DiscoverVC.m */; };
+		4657C36A1D62D7C000F5978D /* DiscoverModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4657C3691D62D7C000F5978D /* DiscoverModel.m */; };
 		81106A241D61F6BE006137B9 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 811069A21D61F6BE006137B9 /* AFHTTPSessionManager.m */; };
 		81106A251D61F6BE006137B9 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 811069A51D61F6BE006137B9 /* AFNetworkReachabilityManager.m */; };
 		81106A261D61F6BE006137B9 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 811069A71D61F6BE006137B9 /* AFSecurityPolicy.m */; };
@@ -63,7 +66,6 @@
 		81106A591D61F6BE006137B9 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 81106A211D61F6BE006137B9 /* UIImageView+WebCache.m */; };
 		81106A5A1D61F6BE006137B9 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 81106A231D61F6BE006137B9 /* UIView+WebCacheOperation.m */; };
 		81106A671D61F8D4006137B9 /* MainTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 81106A661D61F8D4006137B9 /* MainTabBarVC.m */; };
-		81106A901D61FA4E006137B9 /* DiscoverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 81106A8F1D61FA4E006137B9 /* DiscoverVC.m */; };
 		81106A931D61FA61006137B9 /* GameMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 81106A921D61FA61006137B9 /* GameMainVC.m */; };
 		81106A961D61FA71006137B9 /* HomeMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 81106A951D61FA71006137B9 /* HomeMainVC.m */; };
 		81106A991D61FA8A006137B9 /* MineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 81106A981D61FA8A006137B9 /* MineVC.m */; };
@@ -102,6 +104,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4657C3601D62D72A00F5978D /* DiscoverCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DiscoverCell.h; path = My9188/Discover/DiscoverCell.h; sourceTree = SOURCE_ROOT; };
+		4657C3611D62D72A00F5978D /* DiscoverCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DiscoverCell.m; path = My9188/Discover/DiscoverCell.m; sourceTree = SOURCE_ROOT; };
+		4657C3651D62D75E00F5978D /* DiscoverVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverVC.h; sourceTree = "<group>"; };
+		4657C3661D62D75E00F5978D /* DiscoverVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverVC.m; sourceTree = "<group>"; };
+		4657C3681D62D7C000F5978D /* DiscoverModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverModel.h; sourceTree = "<group>"; };
+		4657C3691D62D7C000F5978D /* DiscoverModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverModel.m; sourceTree = "<group>"; };
 		811069A11D61F6BE006137B9 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		811069A21D61F6BE006137B9 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
 		811069A31D61F6BE006137B9 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
@@ -221,8 +229,6 @@
 		81106A231D61F6BE006137B9 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		81106A651D61F8D4006137B9 /* MainTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarVC.h; sourceTree = "<group>"; };
 		81106A661D61F8D4006137B9 /* MainTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarVC.m; sourceTree = "<group>"; };
-		81106A8E1D61FA4E006137B9 /* DiscoverVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverVC.h; sourceTree = "<group>"; };
-		81106A8F1D61FA4E006137B9 /* DiscoverVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverVC.m; sourceTree = "<group>"; };
 		81106A911D61FA61006137B9 /* GameMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameMainVC.h; sourceTree = "<group>"; };
 		81106A921D61FA61006137B9 /* GameMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameMainVC.m; sourceTree = "<group>"; };
 		81106A941D61FA71006137B9 /* HomeMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeMainVC.h; sourceTree = "<group>"; };
@@ -273,6 +279,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4657C3641D62D75E00F5978D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4657C3651D62D75E00F5978D /* DiscoverVC.h */,
+				4657C3661D62D75E00F5978D /* DiscoverVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		8110699F1D61F6BE006137B9 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -545,25 +560,18 @@
 		81106A7E1D61FA37006137B9 /* Discover */ = {
 			isa = PBXGroup;
 			children = (
-				81106A7F1D61FA37006137B9 /* Controller */,
+				4657C3641D62D75E00F5978D /* Controller */,
 				81106A801D61FA37006137B9 /* Model */,
 				81106A811D61FA37006137B9 /* View */,
 			);
 			path = Discover;
 			sourceTree = "<group>";
 		};
-		81106A7F1D61FA37006137B9 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				81106A8E1D61FA4E006137B9 /* DiscoverVC.h */,
-				81106A8F1D61FA4E006137B9 /* DiscoverVC.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
 		81106A801D61FA37006137B9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4657C3681D62D7C000F5978D /* DiscoverModel.h */,
+				4657C3691D62D7C000F5978D /* DiscoverModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -571,6 +579,8 @@
 		81106A811D61FA37006137B9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4657C3601D62D72A00F5978D /* DiscoverCell.h */,
+				4657C3611D62D72A00F5978D /* DiscoverCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -906,6 +916,7 @@
 				81106A251D61F6BE006137B9 /* AFNetworkReachabilityManager.m in Sources */,
 				81106A2C1D61F6BE006137B9 /* MASCompositeConstraint.m in Sources */,
 				81106A391D61F6BE006137B9 /* MJRefreshComponent.m in Sources */,
+				4657C36A1D62D7C000F5978D /* DiscoverModel.m in Sources */,
 				81106A491D61F6BE006137B9 /* UIScrollView+MJRefresh.m in Sources */,
 				81106A4E1D61F6BE006137B9 /* SDWebImageCompat.m in Sources */,
 				81106A521D61F6BE006137B9 /* SDWebImageManager.m in Sources */,
@@ -926,10 +937,10 @@
 				81106A3D1D61F6BE006137B9 /* MJRefreshAutoNormalFooter.m in Sources */,
 				81106A2D1D61F6BE006137B9 /* MASConstraint.m in Sources */,
 				81106A991D61FA8A006137B9 /* MineVC.m in Sources */,
-				81106A901D61FA4E006137B9 /* DiscoverVC.m in Sources */,
 				81106A471D61F6BE006137B9 /* NSBundle+MJRefresh.m in Sources */,
 				81106A4A1D61F6BE006137B9 /* UIView+MJExtension.m in Sources */,
 				81106A431D61F6BE006137B9 /* MJRefreshNormalHeader.m in Sources */,
+				4657C3621D62D72A00F5978D /* DiscoverCell.m in Sources */,
 				81106A3E1D61F6BE006137B9 /* MJRefreshAutoStateFooter.m in Sources */,
 				81106A961D61FA71006137B9 /* HomeMainVC.m in Sources */,
 				81106A381D61F6BE006137B9 /* MJRefreshBackFooter.m in Sources */,
@@ -938,6 +949,7 @@
 				81106A531D61F6BE006137B9 /* SDWebImagePrefetcher.m in Sources */,
 				8169CCE51D61EE4100F6FF5B /* main.m in Sources */,
 				81106A461D61F6BE006137B9 /* MJRefreshConst.m in Sources */,
+				4657C3671D62D75E00F5978D /* DiscoverVC.m in Sources */,
 				81106A3C1D61F6BE006137B9 /* MJRefreshAutoGifFooter.m in Sources */,
 				81106A551D61F6BE006137B9 /* UIImage+GIF.m in Sources */,
 				81106A3A1D61F6BE006137B9 /* MJRefreshFooter.m in Sources */,
@@ -1097,6 +1109,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = My9188/PrefixHeader.pch;
 				INFOPLIST_FILE = My9188/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hjy.My9188;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1110,6 +1123,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = My9188/PrefixHeader.pch;
 				INFOPLIST_FILE = My9188/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hjy.My9188;
 				PRODUCT_NAME = "$(TARGET_NAME)";

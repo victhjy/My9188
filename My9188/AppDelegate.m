@@ -25,6 +25,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     [self createTabBarItem];
+    [[UITabBar appearance] setTintColor:ThemeColor];
     self.window.rootViewController=_tabBar;
     return YES;
 }
