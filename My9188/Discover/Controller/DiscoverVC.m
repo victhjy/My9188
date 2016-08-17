@@ -13,23 +13,42 @@
 @end
 
 @implementation DiscoverVC
-
+{
+    UITableView* _tableView;
+}
 - (void)viewDidLoad {
     createweak;
     [super viewDidLoad];
     self.view.backgroundColor=[UIColor whiteColor];
     self.title=@"发现";
-    UITableView* table=[[UITableView alloc]init];
-    table.tableFooterView=[UIView new];
-    table.delegate=self;
-    table.dataSource=self;
-    [self.view addSubview:table];
-    [table mas_makeConstraints:^(MASConstraintMaker *make) {
+    [self refreshSetup];
+    [_tableView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(weakself.view.mas_top);
         make.width.equalTo(weakself.view.mas_width);
         make.height.mas_equalTo(weakself.view.frame.size.height-49);
     }];
     // Do any additional setup after loading the view.
+}
+
+-(void)refreshSetup{
+    createweak;
+    _tableView=[[UITableView alloc]init];
+    _tableView.tableFooterView=[UIView new];
+    _tableView.delegate=self;
+    _tableView.dataSource=self;
+    [self.view addSubview:_tableView];
+    // 给一个标识符，告诉tableView要创建哪个类
+    [_tableView registerClass:[DiscoverCell class] forCellReuseIdentifier:@"cell"];
+    MJRefreshGifHeader *header = [MJRefreshGifHeader headerWithRefreshingBlock:^{
+        [weakself refresh];
+    }];
+    _tableView.mj_header=header;
+    header.lastUpdatedTimeLabel.hidden=YES;
+}
+
+-(void)refresh{
+    NSLog(@"“发现”列表正在下拉刷新");
+    [_tableView.mj_header endRefreshing];
 }
 
 - (void)didReceiveMemoryWarning {

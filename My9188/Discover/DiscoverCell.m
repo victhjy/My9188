@@ -14,23 +14,33 @@
     UILabel* _title;
 }
 
--(instancetype)init{
-    if (self = [super init]) {
+- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
+    
+    if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
+        self.translatesAutoresizingMaskIntoConstraints=YES;
         
+        [self createUI];
         
+        [self setttingViewAtuoLayout];
     }
-    [self createUI];
+    
     return self;
 }
 
 -(void)createUI{
-    createweak;
-    [self.contentView addSubview:_headImage];
-    [self.contentView addSubview:_title];
-    
     _headImage=[[UIImageView alloc]init];
     _title=[UILabel new];
     
+    [self.contentView addSubview:_headImage];
+    [self.contentView addSubview:_title];
+    
+   
+    
+   
+}
+
+-(void)setttingViewAtuoLayout{
+    createweak;
     [_headImage mas_makeConstraints:^(MASConstraintMaker *make) {
         make.size.mas_equalTo(CGSizeMake(60, 60));
         make.left.equalTo(weakself.contentView.mas_left);
