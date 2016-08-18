@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4657C3621D62D72A00F5978D /* DiscoverCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4657C3611D62D72A00F5978D /* DiscoverCell.m */; };
+		465462291D6551E300086BFF /* DiscoverCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 465462271D6551E300086BFF /* DiscoverCell.m */; };
 		4657C3671D62D75E00F5978D /* DiscoverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4657C3661D62D75E00F5978D /* DiscoverVC.m */; };
 		4657C36A1D62D7C000F5978D /* DiscoverModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4657C3691D62D7C000F5978D /* DiscoverModel.m */; };
 		81106A241D61F6BE006137B9 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 811069A21D61F6BE006137B9 /* AFHTTPSessionManager.m */; };
@@ -104,8 +104,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4657C3601D62D72A00F5978D /* DiscoverCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DiscoverCell.h; path = My9188/Discover/DiscoverCell.h; sourceTree = SOURCE_ROOT; };
-		4657C3611D62D72A00F5978D /* DiscoverCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DiscoverCell.m; path = My9188/Discover/DiscoverCell.m; sourceTree = SOURCE_ROOT; };
+		465462271D6551E300086BFF /* DiscoverCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverCell.m; sourceTree = "<group>"; };
+		465462281D6551E300086BFF /* DiscoverCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverCell.h; sourceTree = "<group>"; };
 		4657C3651D62D75E00F5978D /* DiscoverVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverVC.h; sourceTree = "<group>"; };
 		4657C3661D62D75E00F5978D /* DiscoverVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverVC.m; sourceTree = "<group>"; };
 		4657C3681D62D7C000F5978D /* DiscoverModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverModel.h; sourceTree = "<group>"; };
@@ -579,8 +579,8 @@
 		81106A811D61FA37006137B9 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4657C3601D62D72A00F5978D /* DiscoverCell.h */,
-				4657C3611D62D72A00F5978D /* DiscoverCell.m */,
+				465462271D6551E300086BFF /* DiscoverCell.m */,
+				465462281D6551E300086BFF /* DiscoverCell.h */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -932,6 +932,7 @@
 				81106A351D61F6BE006137B9 /* ViewController+MASAdditions.m in Sources */,
 				81106A441D61F6BE006137B9 /* MJRefreshStateHeader.m in Sources */,
 				81106A561D61F6BE006137B9 /* UIImage+MultiFormat.m in Sources */,
+				465462291D6551E300086BFF /* DiscoverCell.m in Sources */,
 				81106A401D61F6BE006137B9 /* MJRefreshBackNormalFooter.m in Sources */,
 				81106A571D61F6BE006137B9 /* UIImage+WebP.m in Sources */,
 				81106A3D1D61F6BE006137B9 /* MJRefreshAutoNormalFooter.m in Sources */,
@@ -940,7 +941,6 @@
 				81106A471D61F6BE006137B9 /* NSBundle+MJRefresh.m in Sources */,
 				81106A4A1D61F6BE006137B9 /* UIView+MJExtension.m in Sources */,
 				81106A431D61F6BE006137B9 /* MJRefreshNormalHeader.m in Sources */,
-				4657C3621D62D72A00F5978D /* DiscoverCell.m in Sources */,
 				81106A3E1D61F6BE006137B9 /* MJRefreshAutoStateFooter.m in Sources */,
 				81106A961D61FA71006137B9 /* HomeMainVC.m in Sources */,
 				81106A381D61F6BE006137B9 /* MJRefreshBackFooter.m in Sources */,
