@@ -21,6 +21,7 @@
     // Do any additional setup after loading the view.
 }
 
+
 -(void)configViews{
     createweak;
     self.scrollView=[[UIScrollView alloc]init];
